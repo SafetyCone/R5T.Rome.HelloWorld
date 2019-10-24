@@ -1,0 +1,4 @@
+R5T.Rome.HelloWorld - A simple console project demonstrating use of the Rome solution and project maintenance library functionality.
+
+Goals
+
