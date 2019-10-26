@@ -10,7 +10,13 @@ namespace ΩMaintenance
         static void Main(string[] args)
         {
             //Program.LocalDeployScript();
-            Program.RemoteDeployScript();
+            //Program.RemoteDeployScript();
+            Program.AddMissingDependencies();
+        }
+
+        private static void AddMissingDependencies()
+        {
+            RomeUtilities.AddMissingDependencies();
         }
 
         /// <summary>
