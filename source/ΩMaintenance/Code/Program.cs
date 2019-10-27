@@ -11,7 +11,13 @@ namespace ΩMaintenance
         {
             //Program.LocalDeployScript();
             //Program.RemoteDeployScript();
-            Program.AddMissingDependencies();
+            //Program.AddMissingDependencies();
+            Program.RemoveExtraneousDependencies();
+        }
+
+        private static void RemoveExtraneousDependencies()
+        {
+            RomeUtilities.RemoveExtraneousDependencies();
         }
 
         private static void AddMissingDependencies()
